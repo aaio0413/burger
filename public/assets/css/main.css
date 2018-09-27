@@ -1,0 +1,54 @@
+.burgerimg-wrapper {
+    background-image: url("../images/burger-animated.png");
+    background-size: contain;
+    height: 312px;
+}
+
+h2 {
+    color: red;
+    font-size: 45px;
+    text-align: center;
+}
+
+textarea {
+    font-size: 16px;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+}
+
+.form-wrapper {
+    display: flex;
+}
+
+button {
+    color: red;
+}
+
+.create-item-form {
+    width: 32%;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.burger-contents-wrapper {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style: none;
+    font-size: 25px;
+}
+
+/* li button {
+    width: 20%;
+    height: 18px;
+    align-items: center;
+    margin-left: 10px;
+    padding: 0;
+} */

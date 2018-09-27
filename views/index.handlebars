@@ -1,0 +1,19 @@
+<div class='burger-contents-wrapper'>
+
+    <ul>
+    {{#each burgers}}
+        {{#if devoured}}
+        {{> burgers/burger-block edible=true}}
+        {{/if}}
+    {{/each}}
+    </ul>
+
+    <ul>
+    {{#each burgers}}
+        {{#unless devoured}}
+        {{> burgers/burger-block edible=false}}
+        {{/unless}}
+    {{/each}}
+    </ul>
+
+</div>
